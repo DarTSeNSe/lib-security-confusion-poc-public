@@ -1,0 +1,29 @@
+{
+  "name": "paysera-test/lib-security-confusion-poc",
+  "type": "library",
+  "description": "PUBLIC MALICIOUS VERSION - DO NOT USE IN PRODUCTION - Security Research Only (EH-73)",
+  "version": "1.0.1",
+  "license": "MIT",
+  "keywords": ["security", "testing", "poc", "do-not-use"],
+  "authors": [
+    {
+      "name": "Paysera Security Research Team",
+      "email": "security@paysera.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PayseraTest\\Bundle\\SecurityTestBundle\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "extra": {
+    "warning": "THIS IS A TEST PACKAGE FOR SECURITY RESEARCH ONLY - EH-73",
+    "danger": "Installing this package indicates a dependency confusion vulnerability",
+    "contact": "security@paysera.com",
+    "testing-purpose": "Dependency Confusion Attack Proof of Concept",
+    "package-type": "PUBLIC_MALICIOUS"
+  }
+}
