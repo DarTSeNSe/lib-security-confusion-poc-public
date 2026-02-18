@@ -16,7 +16,7 @@
     }
   },
   "require": {
-    "php": ">=8.1"
+    "php": ">=8.0"
   },
   "extra": {
     "warning": "THIS IS A TEST PACKAGE FOR SECURITY RESEARCH ONLY - EH-73",
