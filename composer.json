@@ -2,7 +2,6 @@
   "name": "paysera-test/lib-security-confusion-poc",
   "type": "library",
   "description": "PUBLIC MALICIOUS VERSION - DO NOT USE IN PRODUCTION - Security Research Only (EH-73)",
-  "version": "1.0.1",
   "license": "MIT",
   "keywords": ["security", "testing", "poc", "do-not-use"],
   "authors": [
